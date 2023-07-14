@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#F4D883">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="5sp"
+                    android:text="Class 12 Chemistry"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/cd2"
+                android:layout_marginTop="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/solid_state"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="85dp"
+                        android:layout_toEndOf="@+id/PP1"
+                        android:text="Solid State"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt1"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP1"
+                        android:text="Electric charge,Conservation of charge,Coulomb's law and electric force,Electric field and field lines" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem1"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/solution_icon"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="85dp"
+                        android:layout_toEndOf="@+id/PP2"
+                        android:text="Solutions"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt2"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP2"
+                        android:text="Resistivity, and Ohm's law,Electric power and DC circuits,Kirchhoff's junction rule,Kirchhoff's junction rule,Electric current and voltage." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem2"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/electrochemistry_icon"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:layout_toEndOf="@+id/PP3"
+                        android:text="Electrochemistry"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt3"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP3"
+                        android:text="Heating effects of current ,Electric energy, overloading,
+Rating of appliances ,Anode, cathode,Cations, anions." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem3"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/chem_kinematics"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="65dp"
+                        android:layout_toEndOf="@+id/PP4"
+                        android:text="Chemistry Kinetics"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt4"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/PP4"
+                        android:text="Magnetic feild, Blot Savart's Law, Magnetic feild lines,
+Right hand thumb rule, Magnetic dipole,Solenoid." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem4"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/surface_chemistry"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_toRightOf="@+id/PP5"
+                        android:text="Surface Chemistry"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt5"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/PP5"
+                        android:text="Magnetic dipole, dipole moment,Magnetic field due to
+Magetic dipole, Coulomb's law , current carrying loop
+Guess law in magnetism ,Magnetic flux." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem5"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/gravitation_photo"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/PP6"
+                        android:text=" Processes of Isolation of Elements"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt6"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/PP6"
+                        android:text="Gravitation and gravity, Newton's Law of Gravitatin,
+Its Properties, Freefall ,Mass of earth,Variation in gravity,
+Gravitational field." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem6"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/p_block"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/PP7"
+                        android:text="The p - Block Elements"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt7"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/PP7"
+                        android:text="Fluid ,Fluid statics, Thrust , Pressure, Density , Unit and Dimensions,Specific gravity ,Pascal's Law"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem7"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP8"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/block" />
+
+                    <TextView
+                        android:id="@+id/txt8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_toEndOf="@+id/PP8"
+                        android:text="The d- and f - Block Elements"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt8"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP8"
+                        android:text="Force , Inertia ,Momentum , Newtom's First Law ,Second Law,Third law ,Momentum , Law of conservation." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem8"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP9"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/co_ordinate" />
+
+                    <TextView
+                        android:id="@+id/txt9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_toEndOf="@+id/PP9"
+                        android:text="Coordinate Compounds"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt9"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP9"
+                        android:text="Thermodynamic system, Equilibrium,Zeroth law, Internal Energy ,Adiabatic ,Isobaric , Isochoric, Workdone,Heat engine ,Reversible , irreversible processes." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem9"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP10"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/haloakene" />
+
+                    <TextView
+                        android:id="@+id/txt10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_toEndOf="@+id/PP10"
+                        android:text="Haloalkenes and Haloerenes"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt10"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP10"
+                        android:text="Wave motion , Traverse wave ,Progressive wave ,Frequency ,Wave velocity, Wave equation ,Phase and Phase difference , Stationary waves"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem10"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP11"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/electric_charge_photo" />
+
+                    <TextView
+                        android:id="@+id/txt11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_toEndOf="@+id/PP11"
+                        android:text="Alcohols, Phenols ,and Ethers"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt11"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP11"
+                        android:text="Electrostatics , Electric Charge , Electrostatic Induction ,Coloumb's Law ,Permitivity , Electric field , Charge distribution ." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem11"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP12"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/wave_optics" />
+
+                    <TextView
+                        android:id="@+id/txt12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_toEndOf="@+id/PP12"
+                        android:text="Aldehydes , Ketones , and Carboxylic Acid"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt12"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP12"
+                        android:text="Wavefront , Ray , Huygen's Principle of secondary wavelets , Effects of frequency , Refraction ,Young's double slit experiment ." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem12"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP13"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/amine" />
+
+                    <TextView
+                        android:id="@+id/txt13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:layout_toEndOf="@+id/PP13"
+                        android:text="Amines"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt13"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP13"
+                        android:text="ondary wavelets , Effects of frequency , Refraction ,Young's double slit experiment ." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem13"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP14"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/biomolecule" />
+
+                    <TextView
+                        android:id="@+id/txt14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="75dp"
+                        android:layout_toEndOf="@+id/PP14"
+                        android:text="Biomolecules"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt14"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP14"
+                        android:text="ondary wavelets , Effects of frequency , Refraction ,Young's double slit experiment ." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem14"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP15"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/polymer" />
+
+                    <TextView
+                        android:id="@+id/txt15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="75dp"
+                        android:layout_toEndOf="@+id/PP15"
+                        android:text="Polymers"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt15"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP15"
+                        android:text="ondary wavelets , Effects of frequency , Refraction ,Young's double slit experiment ." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subchem16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subchem15"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/PP16"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/everyday_life" />
+
+                    <TextView
+                        android:id="@+id/txt16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_toEndOf="@+id/PP16"
+                        android:text="Chemistry in Everyday Life"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt16"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/PP16"
+                        android:text="ondary wavelets , Effects of frequency , Refraction ,Young's double slit experiment ." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geometry1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+               >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="5sp"
+                    android:textStyle="bold"
+                    android:text="Class 12 Biology "
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/cd_1"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/reproductio_bio"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25sp"
+                        android:layout_toEndOf="@+id/Bio1"
+                        android:text="@string/reproductions_in_organism_heading"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio1"
+                        android:layout_marginStart="5sp"
+                        android:layout_toEndOf="@+id/Bio1"
+                        android:text="@string/ReproductionInOrganism"
+                    />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio1"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/pistil"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio2"
+                        android:text="Sexual Reproduction in Flowering plants"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio2"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio2"
+                        android:text=" Androecium. Microsporogenesis, Gynoecium , Megasporogenesis ,Pollination,Fertilization,Functions." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio2"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/hum_rep"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio3"
+                        android:text="Human Reproduction"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio3"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio3"
+                        android:text="@string/b3"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio3"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/rep_health"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio4"
+                        android:text="Reproductive Health"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio4"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio4"
+                        android:text="@string/b4"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio5"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_below="@+id/subbio4"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/inheritance"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/Bio5"
+                        android:text="Principles of Inheritance and Variations"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio5"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio5"
+                        android:text="@string/b5" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio5"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/mol_inhheritance"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio6"
+                        android:text="Molecular Basis of Inheritance "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio6"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio6"
+                        android:text="@string/b6" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio6"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/evolution_pic"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio7"
+                        android:text="Evolution "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio7"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio7"
+                        android:text="@string/b7"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio7"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio8"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/infec_tion"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio8"
+                        android:text="Human Health and Diseases"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio8"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio8"
+                        android:text="What are Diseases , Infectious diseases ,non infectious diseases  ,Immunity , AIDS , Human Hygine."/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio8"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio9"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/food_production"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio9"
+                        android:text="@string/b8"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio9"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio9"
+                        android:text="@string/b9" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio9"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio10"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/microbes_pic"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio10"
+                        android:text="Microbes in Human Welfare"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio10"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio10"
+                        android:text="@string/b10" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio11"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_below="@+id/subbio10"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio11"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/bio_tech"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_toEndOf="@+id/Bio11"
+                        android:text="3D Biotechnology - Principles and Processes"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio11"
+                        android:layout_marginTop="1sp"
+                        android:layout_toEndOf="@+id/Bio11"
+                        android:text="@string/b11" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio11"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio12"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/bio_app"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio12"
+                        android:text="Biotechnology and its Application"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio12"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio12"
+                        android:text="@string/b12" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio12"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio13"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/organ"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@+id/Bio13"
+                        android:text="Organism and Populations "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio13"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio13"
+                        android:text="@string/b13" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio13"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio14"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/eco"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_toEndOf="@+id/Bio14"
+                        android:text="Ecosystem "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio14"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio14"
+                        android:text="@string/b14" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio14"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio15"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/bio_diversity"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_toEndOf="@+id/Bio15"
+                        android:text="Biodiversity and Ecosystem "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio15"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio15"
+                        android:text="@string/b16" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subbio16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/subbio15"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Bio16"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/environment_issue"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_bio16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_toEndOf="@+id/Bio16"
+                        android:text="Environmental issues "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_bio16"
+                        android:layout_marginTop="2sp"
+                        android:layout_toEndOf="@+id/Bio16"
+                        android:text="@string/b17" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

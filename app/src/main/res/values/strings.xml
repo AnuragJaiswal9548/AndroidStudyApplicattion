@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">Android_Loves_Kotlin</string>
+    <string name="chemistry">chemistry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chem1_string">
+
+      <b><br>❝ Some Basic Concepts of Chemistry ❞\n</br></b>
+       <br>\n</br>
+    <br>Chemistry may be defined as the branch of science which deals with the study of matter, its composition its properties, and the change which it undergoes in composition as well as in energy during various processes.
+\n</br>
+<br>\n</br>
+       <br><b>Nature of Matter:- \n</b>\n</br>
+
+       <br>The matter may be defined as anything that occupies space possesses mass, offer resistance, and can be felt by one or more of our senses.
+\n</br>
+       <br>\n</br>
+<br>⇒ The three states of matter can be interconnected into one another changing temperature and pressure conditions.
+\n</br>
+       <br>\n</br>
+       <br> ∗ Mixtures are also two types. Homogeneous mixture and Heterogeneous mixture.\n</br>
+       <br>\n</br>
+       <br>⇒ Pure substances - Fixed compositions.\n</br>
+       <br>\n</br>
+
+       <br>⇒ Cannot be separated into smaller substances by physical methods.\n</br>
+       <br>\n</br>
+       <br>⇒ Can only be changed in identity and properties by physical methods.\n</br>
+       <br>\n</br>
+
+<br>⇒ Mixtures -\n</br>
+       <br>\n</br>
+
+<br>∗ Variable composition.\n</br>
+       <br>\n</br>
+
+<br>∗ Components retain their characteristic properties.\n</br>
+       <br>\n</br>
+
+<br>∗ May be separated into pure substances by physical methods.\n</br>
+       <br>\n</br>
+
+<br>∗ Mixtures of different compositions may have widely different properties.\n</br>
+       <br>\n</br>
+
+    <br>⇒ The mixture has two types:-\n</br>
+       <br>\n</br>
+   <br>(i) Homogeneous Mixture - Have the same composition throughout.\n</br>
+       <br>\n</br>
+
+<br>(ii) Components are indistinguishable; For example a gaseous mixture or a liquid solution.\n</br>
+       <br>\n</br>
+
+<br>⇒ Heterogeneous Mixture- Do not have the same composition throughout.\n</br>
+       <br>\n</br>
+
+<br>∗ Composition is distinguishable. For example carbon and sulfur powder.\n</br>
+       <br>\n</br>
+
+<br>⇒ An element may be defined as a pure substance that is made of one kind of atom.\n</br>
+       <br>\n</br>
+
+<br>∗ Elements can be further divided into the following types.\n</br>
+<br>\n</br>
+<br>(a) Metals - These are generally solids and have characteristics such as hardness, malleability, ductility,\n</br>
+<br>\n</br>
+<br>high tensile strength luster, and ability to conduct heat and electricity. Some common examples are; Copper, iron, aluminum silver, zinc, etc.\n</br>
+<br>\n</br>
+<br>(b) Non - Metals -  These are generally non - lustrous brittle, poor conductors of heat and electricity. Some common examples are sulfur, phosphorus, nitrogen, hydrogen, oxygen, etc.\n</br>
+<br>\n</br>
+<br>(c) Metalloids - These elements have characteristics common to metals as well as non - metals. Some common examples are Arsenic, tin, bismuth, antimony.\n</br>
+<br>\n</br>
+<br>⇒ Compounds - A compound may be defined as a pure substance that can be decomposed into simpler substances by some suitable chemical method. A compound is formed by a combination of two or more elements in a definite proportion by mass.\n</br>
+<br>\n</br>
+<br>These compounds are further classified into two categories-\n</br>
+<br>\n</br>
+<br>(i) Organic compounds - Carbon elements is the essential constituents of these compounds. They are originally obtained from living sources. animals and plants. Some examples are oils fats, and proteins, etc.\n</br>
+<br>(ii) Inorganic Compounds - These compounds find their origin from non - living sources such as minerals and rocks. Common salt, marble gypsum, etc.\n</br>
+<br>\n</br>
+<br>∗ Mass and weight:-\n</br>
+<br>\n</br>
+<br>⇒ Mass of a substance is the amount∗ of matter present in it while Weight is the forces exerted by gravity on an object. The mass of a substance is constant whereas its weight may vary from one place to another due to changes in gravity.\n</br>
+<br>\n</br>
+<br>(a) Relationship between molecular mass and vapor density.\n</br>
+<br>\n</br>
+<br>Vapour density (V .D) = Density of gas / Density of hydrogen \n</br>
+<br>\n</br>
+
+              <br>       = Mass of some volume of gas at S.T.P/ Mass of same volume of H2 at S.T.P \n</br>
+
+<br>\n</br>
+                  <br>   = Mass of N molecules of gas / Mass of N molecule of H2 \n</br>
+
+<br>\n</br>
+                     <br>     =  Mass of 1 g gas molecule / Mass of 1 H2 molecule  \n</br>
+<br>\n</br>
+                     <br> = Mass of 1 molecule of gas / (2 × Mass of H atom) \n</br>
+
+<br>\n</br>
+                    <br>  = 1/2 × Molecular mass of  gas \n</br>
+
+
+            <br>\n</br>
+       <br>  Thus = Mol . mass = 2 × V . D \n</br>
+<br>\n</br>
+
+<br>(b) Relationship between mass and volume of gas :- \n </br>
+
+<br>\n</br>
+Mol . mass = 2 × V . D \n
+<br>\n</br>
+
+               <br>  = 2 × mass of 1 L of gas at S.T.P (1 a.t.m) / Mass of 1 L of H2 at S.T.P \n
+
+
+       = 2 × Mass of 1 L of gas at S.T.P/ 0.089g \n</br>
+       <br>\n</br>
+
+       <br>= 22.4 × Mass of 1 L of gas at S.T.P .\n</br>
+
+
+
+        <br> Thus = Mass of 22.4 L of gas at S.T.P = Molar mass (in g mol-1)\n</br>
+
+       <br>⇒ Atomic Mass of an element may be defined as the average relative mass of an atom of the element as compared with the mass of an atom of carbon (C-12) taken as 12 u ( or 12 AMU).\n</br>
+
+<br> ⇒ GRAM ATOMIC MASS (GAM):-\n</br>
+
+<br> It may be defined as that much quantity of element whose mass in gram is numerically equal to its atomic mass. Gram atomic mass is also called one gram -atom of the element.\n</br>
+
+<br> 1 gram - atom of Mg = gram atomic mass of Mg = 24g \n</br>
+
+<br> 2 gram - atom of Mg = 2 × gram atomic mass of Mg = ( 2 × 24) g = 48g \n</br>
+
+<br> → Number of g - atom = Mass in gram / Gram atomic mass = W(g) / GAM\n</br>
+
+<br> ⇒ Molecular Mass - Molecular mass of a substance may be defined as the average relative mass of a molecule of the substance as compared with the mass of an atom of carbon ( C-12) taken as 12 u. \n</br>
+
+<br> ⇒ Molar Mass (M) - Molar mass is defined as that quantity of the substance ( element o compounds ) whose mass in gram is numerically equal to its molecular mass. Molar mass is also called one gram of molecules of the substance. \n</br>
+
+<br> 1 gram - molecules of NH3 = molar mass of NH3 = 17g \n</br>
+<br> 2 gram - molecules of NH3 = 2 × molar mass of NH3 = 34g \n</br>
+
+<br> Number of g - molecule = Mass in gram / Gram atomic mass \n</br>
+
+<br> ⇒ PERCENTAGE COMPOSITION AND MOLECULAR FORMULA:- \n</br>
+
+<br> % (mass) of an element = \n</br>
+
+<br> {(No . of an atom of element ) × (At. mass of element ) × 100} /(Formula mass of substance) \n</br>
+
+<br> ⇒ Limiting regent - limiting regent may be defined as the reactant which is completely consumed during the reaction. \n</br>
+
+<br> ⇒ Solution - It is a homogenous mixture of two or more substances whose concentration can be varied with a certain limit. A solution of two components is called a binary solution. \n</br>
+
+<br> In binary solution the component present in smaller proportion is called solute .while that present in larger proportion is called the solvent. \n</br>
+
+<br> ⇒ Mass percent - It is the amount of solute in grams present in 100g of the solution. \n</br>
+
+<br> Mass % = {Mass of solute (g) × 100}/ Mass of solution (g) \n</br>
+
+<br> ⇒ Molarity (M) = Moles of solute /volume of solution in liters \n</br>
+
+<br> ⇒ Mass of solute (g) / {(MM of solute) × (Volume of solution)} \n</br>
+
+<br> ⇒ Number of moles of solute = Molarity × Volume of solution in liter = MV(L) \n</br>
+
+<br> ∴ For dilution - M1V1 = M2V2 \n</br>
+
+<br> ⇒ Molality (m) = Moles of solute /Mass of solvent (kg) \n</br>
+
+<br> ⇒ {Mass of solute (g) × 1000}/ M(solute) × Mass of solvent (g) \n</br>
+
+<br> The units of molality are mol kg-1. \n</br>
+
+<br> ⇒ Normality (N) - It is the number of gram equivalents of the solute present in 1000 ml or 1 L of the solution. \n</br>
+
+<br> Normality (N)  = G - equivalent of solute / volume of solution (L) \n</br>
+
+<br> = Mass of solute (g) / {GEM(solute) × Volume of solution (L)} \n</br>
+
+<br> ∗ Some Important Formulae:- \n</br>
+
+<br> (i) Relationship between Molarity and Normality \n</br>
+
+<br> Molarity × M . mass (solute) \n</br>
+
+<br> = Normality × Eq . mass (solute) \n</br>
+
+<br> (ii) Relationship between Molarity and Mass Percentage \n</br>
+
+<br> Molarity = {% age (mass) × density × 10}/ {M. mass (solute) \n</br>
+
+<br> Normality = {% age × density × 10}/ Eq . mass (solute)} \n</br>
+
+<br> (iii) Relationship between Molarity and Molality \n</br>
+
+<br> Molality = {1000 × Molarity}/ {(1000 × density (solute)) - (Molarity × M(solute))} \n</br>
+
+<br> (iv) Relationship between Molality (m) and Mole fraction of solute (XB) \n</br>
+
+<br> XB = {m × M(solvent) }/ {1000 + m × M(solvent)} \n</br>
+
+<br> Also ⇒ m = 1000XB / {XA × M(solvent)} (XA = mole fraction of solvent) \n</br>
+
+<br> (v) Relationship between Molarity (M) and mole fraction of Solute (XB) \n</br>
+
+<br> ⇒ XB = Molarity × M(solvent) / {Molarity (M(solvent) - M(solute) + 1000 × density)} \n</br>
+
+<br>Also M = {1000 × d × XB}/ {XA × MA + XB × MB } \n</br>
+
+                               <br>   -:-☀-☀-☀-☀-:- \n</br>
+
+
+
+    </string>
+    <string name="ReproductionInOrganism">Types of Reproduction , Sexual , Asexual , Binary fission , cell divisions ,clones ,budding , menstrual cycle ,prefertilization ,gametogenesis etc.</string>
+    <string name="reproductions_in_organism_heading">Reproductions in Organism</string>
+    <string name="b3">Male reproductive system , female reproductive system Sperm structure , menstrual cycle , Human reproduction.</string>
+    <string name="b4">Reproductive Health: Problem and Strategies Measures taken by Goverenment : Population Explosion and Birth Control , Side effects of contraceptive method ,etc.</string>
+    <string name="b5">Inheritance of one gene , Incomplete dominance , co- dominance ,Multiple alleles, Inheritance of two genes.</string>
+    <string name="b6">Molecular basis of inheritance involves the study of genes, genetic variations and heredity. It explains how an offspring looks similar to the parents. DNA, RNA and genetic code form the basis of the molecular basis of I.</string>
+    <string name="b7">Origin of Life , Experimental representation of Miller’s experiment ,Homologous structures , Analogous structures , Evolution by natural selection</string>
+    <string name="b8">Strategies for Enhancement in Food Production</string>
+    <string name="b9">Animal Husbandry , Animal Breeding and Types , Inbreeding ,Outbreeding</string>
+    <string name="b10">Household Products ,Industrial Products , Sewage Treatment , Biogas Production , Biocontrol of pest and diseases ,Biofertilizersetc</string>
+    <string name="b11">Biotechnology ,Tools of Recombinant Dna Technology , Restriction Enzymes , Separation and isolation of DNA fragments , 2 Cloning Vectors</string>
+    <string name="b12">The applications of biotechnology include therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production.</string>
+    <string name="b13">Organisms , Organisms and Environment , Population Population Attributes , Population Growth ,Population Growth Models , Population Interactions</string>
+    <string name="b14">Biotic Components , Abiotic Components , Ecosystem Types , Terrestrial Ecosystem , Aquatic Ecosystem , Oceanic Ecosystem , Ecological Pyramids etc</string>
+    <string name="b16">Species Diversity,Ecological Diversity ,Genetic Diversity , biodiversity in India , Patterns of Biodiversity , Latitudinal gradients ,Species-Area relationships,The importance of Species Diversity to the Ecosystem</string>
+    <string name="b17">Air Pollution and its Control ,Water Pollution and it Control,Domestic Sewage and Industrial Effluents, Biological Oxygen Demand (BOD)</string>
+    <string name="title_activity_chemkotlin17">chemkotlin17</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

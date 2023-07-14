@@ -1,0 +1,19 @@
+package com.example.android_loves_kotlin
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import com.github.barteksc.pdfviewer.PDFView
+
+class chemkotlin9 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_chemkotlin9)
+
+
+        var pdfView:PDFView =findViewById(R.id.pdfview)
+        pdfView.fromAsset("d_f.pdf").load()
+
+    }
+}

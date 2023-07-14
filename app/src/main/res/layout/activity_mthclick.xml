@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mthclick">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="#7DDAE6"
+                android:id="@+id/cd1"
+                android:layout_height="50dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginStart="65dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:text="Class 12 Mathematics"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth1"
+                android:layout_width="match_parent"
+             android:layout_below="@+id/cd1"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/rel_func_photo"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35sp"
+                        android:layout_toEndOf="@+id/Mth1"
+                        android:text="Relations and Functions"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth1"
+                        android:layout_marginStart="5sp"
+                        android:layout_toRightOf="@+id/Mth1"
+                        android:text="Introduction , Types of Relation, Types of Functions, Composition of functions and invertible functions, Ninary Operations ." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth1"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/itf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/Mth2"
+                        android:text="Inverse Trignometric Functions"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth2"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth2"
+                        android:text="Basic concepts , Properties of Inverse Trignometric Functions " />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth2"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/matrix_photo"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth3"
+                        android:text="Matrices"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth3"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth3"
+                        android:text="Matrix , Order of Matrices ,Types of Matrices , Operations of Matrices , Properties of matrices addition , subtraction , multiplication ,etc." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth3"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/determinants_mth"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth4"
+                        android:text="Determinants "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth4"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth4"
+                        android:text="Determinant , It's Properties , Adjoint and Inverse of a Matrix ,It's Applications." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth4"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/cdiff_photo"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/Mth5"
+                        android:text="Continuity and Differentiability"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth5"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth5"
+                        android:text="Continuity ,  Derivatives of composite functions , Chain Rule , Derivatives of Implicit functions, Inverse trignometric functions , Parametric functions." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth5"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/application_derivatives"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/Mth6"
+                        android:text="Application of Derivatives "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth6"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth6"
+                        android:text="Rate of change of Quantities ,Increasing and Decreasing functions , etc." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth6"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/integral_photo"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth7"
+                        android:text="Integrals"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth7"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth7"
+                        android:text="Integration as Inverse Process ofDifferentiation , Geometrical interpretation of indefinite integrals  , Methods of Integration , By Substitution , etc." />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth7"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth8"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/app_inegral"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/Mth8"
+                        android:text="Applications of Integrals"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth8"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth8"
+                        android:text="Area under the curves, The area of the region bounded by a curve and a line , Area between two curves  etc. " />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth8"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth9"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/de_eq"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_toRightOf="@+id/Mth9"
+                        android:text="Differential Equations"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth9"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth9"
+                        android:text="Basic Concept , Order of differential Equations ,Degree of DE , General and Particular solutions of DE , Methods of solving First , Second, Third order of DE ,etc" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth9"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth10"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/physics_pic"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth10"
+                        android:text="Vector Algebra"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth10"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth10"
+                        android:text="Position vector , Direction coscines , Types of vector , Addition  of Vector , Multiplication of a scalar vector ,components of vector Section formula ,Product of vector , scalar of dot  ,etc" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth10"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth11"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/geometry"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth11"
+                        android:text="3D Geometry"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth11"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth11"
+                        android:text="Direction cosines , Ratios of a Line , Relation between direction cosines of a line , direction cosines passing through two points,  Equation of line in Space ,Angle between Two Lines ,etc" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth11"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth12"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/lp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_toRightOf="@+id/Mth12"
+                        android:text="Linear Programming"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth12"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth12"
+                        android:text="Mathematical formulation , Graphical method  , Different types of Linear Programming , etc" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/submth13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/submth12"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Mth13"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/prob"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_mth13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_toRightOf="@+id/Mth13"
+                        android:text="Probability "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mth13"
+                        android:layout_marginTop="2sp"
+                        android:layout_toRightOf="@+id/Mth13"
+                        android:text="Conditional Probability , Multiplication Theorem of Probability , Independent Events , Theorem of Total Probability , Probability distribution of RandomVariable etc." />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

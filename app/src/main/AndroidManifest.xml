@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_loves_kotlin" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_Loves_Kotlin" >
+        <activity
+            android:name=".Form2"
+            android:exported="false" />
+        <activity
+            android:name=".Form"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm1"
+            android:exported="false" />
+        <activity
+            android:name=".Area"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin17"
+            android:exported="false"
+            android:label="@string/title_activity_chemkotlin17"
+            android:theme="@style/Theme.Android_Loves_Kotlin.NoActionBar" />
+        <activity
+            android:name=".chemkotlin16"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick13"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick12"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick11"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick10"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick9"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick8"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick7"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick6"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick5"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick4"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick3"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick2"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick1"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick16"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick15"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick14"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick13"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick12"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick11"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick10"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick9"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick8"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick7"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick6"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick5"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick4"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick3"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick2"
+            android:exported="false" />
+        <activity
+            android:name=".bioclick1"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick2"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick5"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick11"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick12"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick9"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick8"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick10"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick7"
+            android:exported="false" />
+        <activity
+            android:name=".phyclick1"
+            android:exported="false" />
+        <activity
+            android:name=".mthclick"
+            android:exported="false" />
+        <activity
+            android:name=".physicsclick"
+            android:exported="false" />
+        <activity
+            android:name=".geometry1"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin15"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin14"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin13"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin12"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin11"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin10"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin9"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin8"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin7"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin6"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin5"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin4"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin3"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin2"
+            android:exported="false" />
+        <activity
+            android:name=".chemkotlin1"
+            android:exported="false" />
+        <activity
+            android:name=".UnitConverter"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyBroadcastReceiver" />
+    </application>
+
+</manifest>

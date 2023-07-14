@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/drawable/_arrow_back_24.xml" value="0.119" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.119" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick1.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick10.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick11.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick12.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick13.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick14.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick15.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick16.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick3.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick4.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick5.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick6.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick7.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick8.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_bioclick9.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_biology.xml" value="0.22" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chem1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chem_java1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemistry1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemistry2.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin10.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin11.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin12.xml" value="0.15364583333333334" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin13.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin14.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin15.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin16.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin17.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin18.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin3.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin4.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin5.xml" value="0.15364583333333334" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin6.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin7.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin8.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_chemkotlin9.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_geometry.xml" value="0.15364583333333334" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main11.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main4.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_main5.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mechainical_pf.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick.xml" value="0.22" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick10.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick11.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick12.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick13.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick3.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick4.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick5.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick6.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick7.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick8.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_mthclick9.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_new_physics.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick10.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick11.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick12.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick5.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick7.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick8.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_phyclick9.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_physics_click1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_physicsclick.xml" value="0.16666666666666666" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_physicsclick2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_physicsclick3.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_physicsclick4.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/activity_unit_converter.xml" value="0.16666666666666666" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/fragment_kotlin.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/fragment_kotlin1.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/fragment_kotlin2.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/layout/fragment_kotlin3.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/menu/bottom_nav.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/menu/navigation_bar.xml" value="0.16770833333333332" />
+        <entry key="..\:/PPP/Android_Loves_Kotlin/app/src/main/res/menu/navigation_menu.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
